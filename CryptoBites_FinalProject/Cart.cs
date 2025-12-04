@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace CryptoBites_FinalProject
 {
-    public partial class about : UserControl
+    public partial class Cart : Form
     {
-        public about()
+        public Cart()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
+        private void Cart_Load(object sender, EventArgs e)
         {
 
         }

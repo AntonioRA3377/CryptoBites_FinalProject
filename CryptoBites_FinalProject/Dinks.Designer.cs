@@ -49,6 +49,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -168,6 +169,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.button6);
@@ -183,11 +185,11 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(123, 176);
+            this.button5.Location = new System.Drawing.Point(154, 176);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(90, 23);
             this.button5.TabIndex = 5;
-            this.button5.Text = "SERVICE";
+            this.button5.Text = "ACCOUNT";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // textBox1
@@ -246,6 +248,16 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "FOODS";
             this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(92, 31);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "<== Back";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Dinks
             // 
@@ -308,5 +320,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button1;
     }
 }

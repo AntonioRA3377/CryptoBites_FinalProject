@@ -117,18 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Welcome to CryptoBites, the future of dining! 
-We're not just a restaurant; we're a culinary hub
- where the revolutionary spirit of blockchain 
-technology meets the comfort and creativity of 
-exceptional food.</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Innovation in Every Dish: Our menu is a curated
- collection of classic comfort food and bold, new
- creations, all given a unique, crypto-themed twist.
-Get ready to sink your teeth into our 
-famous "Bitcoin Burger" or sip on an "Ethereum Elixir."</value>
-  </data>
 </root>
