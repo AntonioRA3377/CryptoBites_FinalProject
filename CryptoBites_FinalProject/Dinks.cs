@@ -16,5 +16,10 @@ namespace CryptoBites_FinalProject
         {
             InitializeComponent();
         }
+
+        private void numericUpDown6_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
