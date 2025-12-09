@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>CryptoBites_FinalProject</RootNamespace>
     <AssemblyName>CryptoBites_FinalProject</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -85,13 +86,13 @@
       <DependentUpon>Cart.cs</DependentUpon>
     </Compile>
     <Compile Include="Dinks.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dinks.Designer.cs">
       <DependentUpon>Dinks.cs</DependentUpon>
     </Compile>
     <Compile Include="Foods.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Foods.Designer.cs">
       <DependentUpon>Foods.cs</DependentUpon>
