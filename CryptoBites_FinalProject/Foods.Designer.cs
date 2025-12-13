@@ -29,13 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnviewcart = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.btndrinks = new System.Windows.Forms.Button();
             this.btnfood = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.numericUpDownBurger = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownFries = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownChicken = new System.Windows.Forms.NumericUpDown();
@@ -48,7 +49,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnviewcart = new System.Windows.Forms.Button();
             this.numericUpDownpizza = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownhotdog = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownpancit = new System.Windows.Forms.NumericUpDown();
@@ -92,17 +92,17 @@
             this.panel1.Size = new System.Drawing.Size(1481, 252);
             this.panel1.TabIndex = 0;
             // 
-            // button5
+            // btnviewcart
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(13, 8);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(123, 38);
-            this.button5.TabIndex = 26;
-            this.button5.Text = "<== Back";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnviewcart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnviewcart.Location = new System.Drawing.Point(1325, 4);
+            this.btnviewcart.Margin = new System.Windows.Forms.Padding(4);
+            this.btnviewcart.Name = "btnviewcart";
+            this.btnviewcart.Size = new System.Drawing.Size(123, 38);
+            this.btnviewcart.TabIndex = 27;
+            this.btnviewcart.Text = "View Cart";
+            this.btnviewcart.UseVisualStyleBackColor = true;
+            this.btnviewcart.Click += new System.EventHandler(this.btnviewcart_Click);
             // 
             // button1
             // 
@@ -150,7 +150,7 @@
             // btndrinks
             // 
             this.btndrinks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndrinks.Location = new System.Drawing.Point(1147, 210);
+            this.btndrinks.Location = new System.Drawing.Point(1161, 210);
             this.btndrinks.Margin = new System.Windows.Forms.Padding(4);
             this.btndrinks.Name = "btndrinks";
             this.btndrinks.Size = new System.Drawing.Size(127, 38);
@@ -170,6 +170,18 @@
             this.btnfood.Text = "FOODS";
             this.btnfood.UseVisualStyleBackColor = true;
             this.btnfood.Click += new System.EventHandler(this.btnfood_Click);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(13, 8);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(123, 38);
+            this.button5.TabIndex = 26;
+            this.button5.Text = "<== Back";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // numericUpDownBurger
             // 
@@ -275,18 +287,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(249, 139);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnviewcart
-            // 
-            this.btnviewcart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnviewcart.Location = new System.Drawing.Point(1325, 4);
-            this.btnviewcart.Margin = new System.Windows.Forms.Padding(4);
-            this.btnviewcart.Name = "btnviewcart";
-            this.btnviewcart.Size = new System.Drawing.Size(123, 38);
-            this.btnviewcart.TabIndex = 27;
-            this.btnviewcart.Text = "View Cart";
-            this.btnviewcart.UseVisualStyleBackColor = true;
-            this.btnviewcart.Click += new System.EventHandler(this.btnviewcart_Click);
             // 
             // numericUpDownpizza
             // 

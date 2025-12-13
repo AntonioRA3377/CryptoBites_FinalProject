@@ -30,15 +30,15 @@
         {
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtNumber = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCreate = new System.Windows.Forms.Button();
             this.txtNewPass = new System.Windows.Forms.TextBox();
             this.txtNewUser = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnBack = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtNumber = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -65,11 +65,41 @@
             this.panel2.Controls.Add(this.btnCreate);
             this.panel2.Controls.Add(this.txtNewPass);
             this.panel2.Controls.Add(this.txtNewUser);
-            this.panel2.Location = new System.Drawing.Point(251, 158);
+            this.panel2.Location = new System.Drawing.Point(274, 153);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(528, 382);
             this.panel2.TabIndex = 9;
+            // 
+            // btnBack
+            // 
+            this.btnBack.Location = new System.Drawing.Point(294, 263);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(167, 85);
+            this.btnBack.TabIndex = 10;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(80, 213);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 16);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Number:";
+            // 
+            // txtNumber
+            // 
+            this.txtNumber.Location = new System.Drawing.Point(81, 233);
+            this.txtNumber.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNumber.Name = "txtNumber";
+            this.txtNumber.Size = new System.Drawing.Size(380, 22);
+            this.txtNumber.TabIndex = 8;
+            this.txtNumber.TextChanged += new System.EventHandler(this.txtNumber_TextChanged);
             // 
             // label3
             // 
@@ -129,39 +159,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(992, 130);
             this.panel1.TabIndex = 10;
-            // 
-            // btnBack
-            // 
-            this.btnBack.Location = new System.Drawing.Point(294, 263);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(167, 85);
-            this.btnBack.TabIndex = 10;
-            this.btnBack.Text = "Back";
-            this.btnBack.UseVisualStyleBackColor = true;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(80, 213);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 16);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Number:";
-            // 
-            // txtNumber
-            // 
-            this.txtNumber.Location = new System.Drawing.Point(81, 233);
-            this.txtNumber.Margin = new System.Windows.Forms.Padding(4);
-            this.txtNumber.Name = "txtNumber";
-            this.txtNumber.Size = new System.Drawing.Size(380, 22);
-            this.txtNumber.TabIndex = 8;
-            this.txtNumber.TextChanged += new System.EventHandler(this.txtNumber_TextChanged);
-
-
-
             // 
             // FormSignup
             // 
