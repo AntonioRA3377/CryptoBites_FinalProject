@@ -15,10 +15,7 @@ namespace CryptoBites_FinalProject
             InitializeComponent();
             currentUsername = loggedInUser;
 
-            // Wire buttons (if not wired in Designer)
-            this.btndrinks.Click += btndrinks_Click;
-            this.btnfood.Click += btnfood_Click_1;
-            this.btncheck.Click += btncheck_Click; // add checkout button handler
+            
         }
 
         private void Cart_Load(object sender, EventArgs e)
@@ -154,7 +151,7 @@ namespace CryptoBites_FinalProject
             return sum;
         }
 
-        private void btnfood_Click_1(object sender, EventArgs e)
+        private void btnfood_Click(object sender, EventArgs e)
         {
             Foods foodForm = new Foods(this, currentUsername);
             foodForm.Show();
@@ -238,5 +235,11 @@ namespace CryptoBites_FinalProject
             return summary;
         }
 
+        private void btndrinks_Click_1(object sender, EventArgs e)
+        {
+            Dinks DinksForm = new Dinks(this, currentUsername);
+            DinksForm.Show();
+            this.Hide();
+        }
     }
 }

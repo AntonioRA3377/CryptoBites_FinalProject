@@ -46,7 +46,6 @@
             this.button6 = new System.Windows.Forms.Button();
             this.btnfood = new System.Windows.Forms.Button();
             this.btndrinks = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnAddAdobo = new System.Windows.Forms.Button();
             this.btnAddSinigang = new System.Windows.Forms.Button();
             this.btnAddDinuguan = new System.Windows.Forms.Button();
@@ -193,7 +192,6 @@
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.btnfood);
             this.panel1.Controls.Add(this.btndrinks);
-            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(-8, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
@@ -257,7 +255,7 @@
             this.btnfood.TabIndex = 4;
             this.btnfood.Text = "FOOD";
             this.btnfood.UseVisualStyleBackColor = true;
-            this.btnfood.Click += new System.EventHandler(this.btnfood_Click_1);
+            this.btnfood.Click += new System.EventHandler(this.btnfood_Click);
             // 
             // btndrinks
             // 
@@ -269,14 +267,7 @@
             this.btndrinks.TabIndex = 3;
             this.btndrinks.Text = "DRINKS";
             this.btndrinks.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(550, 90);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(365, 22);
-            this.textBox1.TabIndex = 0;
+            this.btndrinks.Click += new System.EventHandler(this.btndrinks_Click_1);
             // 
             // btnAddAdobo
             // 
@@ -313,10 +304,12 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = global::CryptoBites_FinalProject.Properties.Resources.ddgn;
             this.pictureBox5.Location = new System.Drawing.Point(16, 608);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(249, 139);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 34;
             this.pictureBox5.TabStop = false;
             // 
@@ -395,7 +388,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnfood;
         private System.Windows.Forms.Button btndrinks;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button btnback;
         private System.Windows.Forms.Label labelTotal;

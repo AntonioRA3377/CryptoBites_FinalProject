@@ -31,33 +31,44 @@
             this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownchoco = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownlemon = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownmango = new System.Windows.Forms.NumericUpDown();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnview = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.btndrinks = new System.Windows.Forms.Button();
             this.btnfood = new System.Windows.Forms.Button();
+            this.numericUpDownmilktea = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownpineapple = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownapple = new System.Windows.Forms.NumericUpDown();
+            this.btnmango = new System.Windows.Forms.Button();
+            this.btnlemonade = new System.Windows.Forms.Button();
+            this.btnchoco = new System.Windows.Forms.Button();
+            this.btnmilktea = new System.Windows.Forms.Button();
+            this.btnpineapp = new System.Windows.Forms.Button();
+            this.btnapple = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnview = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownchoco)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownlemon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownmango)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownmilktea)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownpineapple)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownapple)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -90,29 +101,29 @@
             this.numericUpDown4.Size = new System.Drawing.Size(303, 22);
             this.numericUpDown4.TabIndex = 17;
             // 
-            // numericUpDown3
+            // numericUpDownchoco
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(1151, 433);
-            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(4);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(303, 22);
-            this.numericUpDown3.TabIndex = 16;
+            this.numericUpDownchoco.Location = new System.Drawing.Point(1151, 433);
+            this.numericUpDownchoco.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDownchoco.Name = "numericUpDownchoco";
+            this.numericUpDownchoco.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownchoco.TabIndex = 16;
             // 
-            // numericUpDown2
+            // numericUpDownlemon
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(623, 433);
-            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(4);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(303, 22);
-            this.numericUpDown2.TabIndex = 15;
+            this.numericUpDownlemon.Location = new System.Drawing.Point(623, 433);
+            this.numericUpDownlemon.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDownlemon.Name = "numericUpDownlemon";
+            this.numericUpDownlemon.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownlemon.TabIndex = 15;
             // 
-            // numericUpDown
+            // numericUpDownmango
             // 
-            this.numericUpDown.Location = new System.Drawing.Point(48, 433);
-            this.numericUpDown.Margin = new System.Windows.Forms.Padding(4);
-            this.numericUpDown.Name = "numericUpDown";
-            this.numericUpDown.Size = new System.Drawing.Size(303, 22);
-            this.numericUpDown.TabIndex = 14;
+            this.numericUpDownmango.Location = new System.Drawing.Point(48, 433);
+            this.numericUpDownmango.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDownmango.Name = "numericUpDownmango";
+            this.numericUpDownmango.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownmango.TabIndex = 14;
             // 
             // panel1
             // 
@@ -130,7 +141,6 @@
             this.panel2.Controls.Add(this.btnview);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.btndrinks);
@@ -140,6 +150,18 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1481, 252);
             this.panel2.TabIndex = 1;
+            // 
+            // btnview
+            // 
+            this.btnview.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnview.Location = new System.Drawing.Point(1327, 9);
+            this.btnview.Margin = new System.Windows.Forms.Padding(4);
+            this.btnview.Name = "btnview";
+            this.btnview.Size = new System.Drawing.Size(123, 38);
+            this.btnview.TabIndex = 27;
+            this.btnview.Text = "View Cart";
+            this.btnview.UseVisualStyleBackColor = true;
+            this.btnview.Click += new System.EventHandler(this.btnview_Click);
             // 
             // button1
             // 
@@ -151,7 +173,7 @@
             this.button1.TabIndex = 26;
             this.button1.Text = "<== Back";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // button5
             // 
@@ -163,15 +185,7 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "ACCOUNT";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(555, 144);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(365, 22);
-            this.textBox1.TabIndex = 0;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // button6
             // 
@@ -220,77 +234,170 @@
             this.btnfood.UseVisualStyleBackColor = true;
             this.btnfood.Click += new System.EventHandler(this.btnfood_Click);
             // 
+            // numericUpDownmilktea
+            // 
+            this.numericUpDownmilktea.Location = new System.Drawing.Point(48, 654);
+            this.numericUpDownmilktea.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDownmilktea.Name = "numericUpDownmilktea";
+            this.numericUpDownmilktea.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownmilktea.TabIndex = 26;
+            // 
+            // numericUpDownpineapple
+            // 
+            this.numericUpDownpineapple.Location = new System.Drawing.Point(623, 654);
+            this.numericUpDownpineapple.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDownpineapple.Name = "numericUpDownpineapple";
+            this.numericUpDownpineapple.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownpineapple.TabIndex = 27;
+            // 
+            // numericUpDownapple
+            // 
+            this.numericUpDownapple.Location = new System.Drawing.Point(1151, 654);
+            this.numericUpDownapple.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDownapple.Name = "numericUpDownapple";
+            this.numericUpDownapple.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownapple.TabIndex = 28;
+            // 
+            // btnmango
+            // 
+            this.btnmango.Location = new System.Drawing.Point(161, 409);
+            this.btnmango.Name = "btnmango";
+            this.btnmango.Size = new System.Drawing.Size(75, 23);
+            this.btnmango.TabIndex = 29;
+            this.btnmango.Text = "mango";
+            this.btnmango.UseVisualStyleBackColor = true;
+            this.btnmango.Click += new System.EventHandler(this.btnmango_Click);
+            // 
+            // btnlemonade
+            // 
+            this.btnlemonade.Location = new System.Drawing.Point(742, 409);
+            this.btnlemonade.Name = "btnlemonade";
+            this.btnlemonade.Size = new System.Drawing.Size(75, 23);
+            this.btnlemonade.TabIndex = 30;
+            this.btnlemonade.Text = "lemon";
+            this.btnlemonade.UseVisualStyleBackColor = true;
+            this.btnlemonade.Click += new System.EventHandler(this.btnlemonade_Click);
+            // 
+            // btnchoco
+            // 
+            this.btnchoco.Location = new System.Drawing.Point(1284, 409);
+            this.btnchoco.Name = "btnchoco";
+            this.btnchoco.Size = new System.Drawing.Size(75, 23);
+            this.btnchoco.TabIndex = 31;
+            this.btnchoco.Text = "choco";
+            this.btnchoco.UseVisualStyleBackColor = true;
+            this.btnchoco.Click += new System.EventHandler(this.btnchoco_Click);
+            // 
+            // btnmilktea
+            // 
+            this.btnmilktea.Location = new System.Drawing.Point(161, 623);
+            this.btnmilktea.Name = "btnmilktea";
+            this.btnmilktea.Size = new System.Drawing.Size(75, 23);
+            this.btnmilktea.TabIndex = 32;
+            this.btnmilktea.Text = "milk tea";
+            this.btnmilktea.UseVisualStyleBackColor = true;
+            this.btnmilktea.Click += new System.EventHandler(this.btnmilktea_Click);
+            // 
+            // btnpineapp
+            // 
+            this.btnpineapp.Location = new System.Drawing.Point(742, 624);
+            this.btnpineapp.Name = "btnpineapp";
+            this.btnpineapp.Size = new System.Drawing.Size(75, 23);
+            this.btnpineapp.TabIndex = 33;
+            this.btnpineapp.Text = "pineapple";
+            this.btnpineapp.UseVisualStyleBackColor = true;
+            this.btnpineapp.Click += new System.EventHandler(this.btnpineapp_Click);
+            // 
+            // btnapple
+            // 
+            this.btnapple.Location = new System.Drawing.Point(1284, 623);
+            this.btnapple.Name = "btnapple";
+            this.btnapple.Size = new System.Drawing.Size(75, 23);
+            this.btnapple.TabIndex = 34;
+            this.btnapple.Text = "apple";
+            this.btnapple.UseVisualStyleBackColor = true;
+            this.btnapple.Click += new System.EventHandler(this.btnapple_Click);
+            // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(1183, 521);
+            this.pictureBox6.Image = global::CryptoBites_FinalProject.Properties.Resources.apple;
+            this.pictureBox6.Location = new System.Drawing.Point(1174, 477);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(249, 139);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 25;
             this.pictureBox6.TabStop = false;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(655, 521);
+            this.pictureBox5.Image = global::CryptoBites_FinalProject.Properties.Resources.pineapp;
+            this.pictureBox5.Location = new System.Drawing.Point(655, 477);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(249, 139);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 24;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(80, 521);
+            this.pictureBox4.Image = global::CryptoBites_FinalProject.Properties.Resources.mt1;
+            this.pictureBox4.Location = new System.Drawing.Point(80, 477);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(249, 139);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 23;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = global::CryptoBites_FinalProject.Properties.Resources.choco;
             this.pictureBox3.Location = new System.Drawing.Point(1183, 263);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(249, 139);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 22;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::CryptoBites_FinalProject.Properties.Resources.mango;
             this.pictureBox2.Location = new System.Drawing.Point(80, 263);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(249, 139);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 21;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::CryptoBites_FinalProject.Properties.Resources.lemon;
             this.pictureBox1.Location = new System.Drawing.Point(655, 263);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(249, 139);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnview
-            // 
-            this.btnview.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnview.Location = new System.Drawing.Point(1327, 9);
-            this.btnview.Margin = new System.Windows.Forms.Padding(4);
-            this.btnview.Name = "btnview";
-            this.btnview.Size = new System.Drawing.Size(123, 38);
-            this.btnview.TabIndex = 27;
-            this.btnview.Text = "View Cart";
-            this.btnview.UseVisualStyleBackColor = true;
-            this.btnview.Click += new System.EventHandler(this.btnview_Click);
             // 
             // Dinks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1474, 689);
+            this.Controls.Add(this.btnapple);
+            this.Controls.Add(this.btnpineapp);
+            this.Controls.Add(this.btnmilktea);
+            this.Controls.Add(this.btnchoco);
+            this.Controls.Add(this.btnlemonade);
+            this.Controls.Add(this.btnmango);
+            this.Controls.Add(this.numericUpDownapple);
+            this.Controls.Add(this.numericUpDownpineapple);
+            this.Controls.Add(this.numericUpDownmilktea);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -300,21 +407,24 @@
             this.Controls.Add(this.numericUpDown6);
             this.Controls.Add(this.numericUpDown5);
             this.Controls.Add(this.numericUpDown4);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown);
+            this.Controls.Add(this.numericUpDownchoco);
+            this.Controls.Add(this.numericUpDownlemon);
+            this.Controls.Add(this.numericUpDownmango);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Dinks";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownchoco)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownlemon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownmango)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownmilktea)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownpineapple)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownapple)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -336,18 +446,26 @@
         private System.Windows.Forms.NumericUpDown numericUpDown6;
         private System.Windows.Forms.NumericUpDown numericUpDown5;
         private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown;
+        private System.Windows.Forms.NumericUpDown numericUpDownchoco;
+        private System.Windows.Forms.NumericUpDown numericUpDownlemon;
+        private System.Windows.Forms.NumericUpDown numericUpDownmango;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btndrinks;
         private System.Windows.Forms.Button btnfood;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnview;
+        private System.Windows.Forms.NumericUpDown numericUpDownmilktea;
+        private System.Windows.Forms.NumericUpDown numericUpDownpineapple;
+        private System.Windows.Forms.NumericUpDown numericUpDownapple;
+        private System.Windows.Forms.Button btnmango;
+        private System.Windows.Forms.Button btnlemonade;
+        private System.Windows.Forms.Button btnchoco;
+        private System.Windows.Forms.Button btnmilktea;
+        private System.Windows.Forms.Button btnpineapp;
+        private System.Windows.Forms.Button btnapple;
     }
 }
