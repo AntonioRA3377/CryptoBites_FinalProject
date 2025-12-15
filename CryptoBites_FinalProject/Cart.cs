@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
@@ -170,6 +171,18 @@ namespace CryptoBites_FinalProject
 
             if (confirm == DialogResult.Yes)
             {
+                // Save order to file for history
+                string filePath = "orders.txt";
+                using (StreamWriter sw = new StreamWriter(filePath, true))
+                {
+                    sw.WriteLine($"User: {currentUsername}");
+                    for (int i = 0; i < cartItems.Count; i++)
+                        sw.WriteLine($"{cartItems[i]} - ₱{cartPrices[i]:0.00}");
+                    sw.WriteLine($"Total: ₱{total:0.00}");
+                    sw.WriteLine($"Payment Method: {paymentMethod}");
+                    sw.WriteLine("-----"); // separator
+                }
+
                 MessageBox.Show("Thank you for your order!",
                                 "Order Successful",
                                 MessageBoxButtons.OK,
@@ -184,6 +197,42 @@ namespace CryptoBites_FinalProject
                 radioBtngcash.Checked = false;
                 radiobtncredit.Checked = false;
             }
+        }
+
+        // ---------------- Show Previous Orders ----------------
+        private void btnhistory_Click(object sender, EventArgs e)
+        {
+            string filePath = "orders.txt";
+            if (!File.Exists(filePath))
+            {
+                MessageBox.Show("No previous orders found.", "History", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            string[] lines = File.ReadAllLines(filePath);
+            string history = "";
+            bool userFound = false;
+
+            for (int i = 0; i < lines.Length; i++)
+            {
+                if (lines[i].StartsWith($"User: {currentUsername}"))
+                {
+                    userFound = true;
+                    history += "Previous Order:\n";
+                    i++; // move to first item
+                    while (i < lines.Length && lines[i] != "-----")
+                    {
+                        history += lines[i] + "\n";
+                        i++;
+                    }
+                    history += "\n";
+                }
+            }
+
+            if (!userFound)
+                history = "You have no previous orders.";
+
+            MessageBox.Show(history, "Order History", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         // ---------------- Helpers ----------------

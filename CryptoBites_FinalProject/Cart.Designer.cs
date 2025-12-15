@@ -55,6 +55,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnhistory = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDowndiniguan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownsinigang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownadobo)).BeginInit();
@@ -189,6 +190,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.btnhistory);
             this.panel1.Controls.Add(this.btnback);
             this.panel1.Controls.Add(this.btnaccnt);
             this.panel1.Controls.Add(this.label1);
@@ -207,9 +209,9 @@
             this.btnback.Location = new System.Drawing.Point(11, 4);
             this.btnback.Margin = new System.Windows.Forms.Padding(4);
             this.btnback.Name = "btnback";
-            this.btnback.Size = new System.Drawing.Size(123, 38);
+            this.btnback.Size = new System.Drawing.Size(212, 38);
             this.btnback.TabIndex = 37;
-            this.btnback.Text = "<== Back";
+            this.btnback.Text = "LOG OUT";
             this.btnback.UseVisualStyleBackColor = true;
             this.btnback.Click += new System.EventHandler(this.btnback_Click_1);
             // 
@@ -365,6 +367,16 @@
             this.label5.TabIndex = 42;
             this.label5.Text = "Php 130";
             // 
+            // btnhistory
+            // 
+            this.btnhistory.Location = new System.Drawing.Point(1315, 18);
+            this.btnhistory.Name = "btnhistory";
+            this.btnhistory.Size = new System.Drawing.Size(125, 36);
+            this.btnhistory.TabIndex = 38;
+            this.btnhistory.Text = "History";
+            this.btnhistory.UseVisualStyleBackColor = true;
+            this.btnhistory.Click += new System.EventHandler(this.btnhistory_Click);
+            // 
             // Cart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -431,5 +443,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnhistory;
     }
 }
