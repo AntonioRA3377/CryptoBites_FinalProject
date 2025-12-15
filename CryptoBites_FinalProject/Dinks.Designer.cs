@@ -389,9 +389,9 @@
             this.panel3.Controls.Add(this.button6);
             this.panel3.Controls.Add(this.btndrinks);
             this.panel3.Controls.Add(this.btnfood);
-            this.panel3.Location = new System.Drawing.Point(8, 96);
+            this.panel3.Location = new System.Drawing.Point(4, 96);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(163, 581);
+            this.panel3.Size = new System.Drawing.Size(167, 581);
             this.panel3.TabIndex = 35;
             // 
             // Dinks
