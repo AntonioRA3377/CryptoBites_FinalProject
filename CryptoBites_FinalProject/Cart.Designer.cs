@@ -339,7 +339,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1436, 864);
+            this.ClientSize = new System.Drawing.Size(1436, 748);
             this.Controls.Add(this.btnAddDinuguan);
             this.Controls.Add(this.btnAddSinigang);
             this.Controls.Add(this.btnAddAdobo);
