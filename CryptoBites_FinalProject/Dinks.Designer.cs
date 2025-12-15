@@ -76,6 +76,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // numericUpDown6
@@ -112,7 +113,7 @@
             // 
             // numericUpDownlemon
             // 
-            this.numericUpDownlemon.Location = new System.Drawing.Point(742, 313);
+            this.numericUpDownlemon.Location = new System.Drawing.Point(764, 313);
             this.numericUpDownlemon.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownlemon.Name = "numericUpDownlemon";
             this.numericUpDownlemon.Size = new System.Drawing.Size(249, 22);
@@ -120,10 +121,10 @@
             // 
             // numericUpDownmango
             // 
-            this.numericUpDownmango.Location = new System.Drawing.Point(48, 433);
+            this.numericUpDownmango.Location = new System.Drawing.Point(351, 313);
             this.numericUpDownmango.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownmango.Name = "numericUpDownmango";
-            this.numericUpDownmango.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownmango.Size = new System.Drawing.Size(249, 22);
             this.numericUpDownmango.TabIndex = 14;
             // 
             // panel1
@@ -139,25 +140,20 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.btnview);
-            this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.btnfood);
-            this.panel2.Controls.Add(this.btndrinks);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1481, 94);
+            this.panel2.Size = new System.Drawing.Size(1481, 92);
             this.panel2.TabIndex = 1;
             // 
             // btnmilktea
             // 
-            this.btnmilktea.Location = new System.Drawing.Point(642, 548);
+            this.btnmilktea.Location = new System.Drawing.Point(351, 564);
             this.btnmilktea.Name = "btnmilktea";
-            this.btnmilktea.Size = new System.Drawing.Size(75, 23);
+            this.btnmilktea.Size = new System.Drawing.Size(249, 36);
             this.btnmilktea.TabIndex = 32;
             this.btnmilktea.Text = "milk tea";
             this.btnmilktea.UseVisualStyleBackColor = true;
@@ -165,9 +161,9 @@
             // 
             // btnmango
             // 
-            this.btnmango.Location = new System.Drawing.Point(663, 385);
+            this.btnmango.Location = new System.Drawing.Point(351, 272);
             this.btnmango.Name = "btnmango";
-            this.btnmango.Size = new System.Drawing.Size(75, 23);
+            this.btnmango.Size = new System.Drawing.Size(249, 34);
             this.btnmango.TabIndex = 29;
             this.btnmango.Text = "mango";
             this.btnmango.UseVisualStyleBackColor = true;
@@ -188,7 +184,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(423, 44);
+            this.button6.Location = new System.Drawing.Point(11, 10);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(129, 28);
@@ -212,10 +208,10 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(151, 34);
+            this.button5.Location = new System.Drawing.Point(11, 57);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(120, 28);
+            this.button5.Size = new System.Drawing.Size(129, 28);
             this.button5.TabIndex = 5;
             this.button5.Text = "ACCOUNT";
             this.button5.UseVisualStyleBackColor = true;
@@ -225,7 +221,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(484, 0);
+            this.label4.Location = new System.Drawing.Point(521, 0);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(488, 77);
@@ -235,10 +231,10 @@
             // btnfood
             // 
             this.btnfood.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnfood.Location = new System.Drawing.Point(980, 50);
+            this.btnfood.Location = new System.Drawing.Point(13, 264);
             this.btnfood.Margin = new System.Windows.Forms.Padding(4);
             this.btnfood.Name = "btnfood";
-            this.btnfood.Size = new System.Drawing.Size(123, 38);
+            this.btnfood.Size = new System.Drawing.Size(127, 38);
             this.btnfood.TabIndex = 3;
             this.btnfood.Text = "FOODS";
             this.btnfood.UseVisualStyleBackColor = true;
@@ -247,7 +243,7 @@
             // btndrinks
             // 
             this.btndrinks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndrinks.Location = new System.Drawing.Point(288, 34);
+            this.btndrinks.Location = new System.Drawing.Point(13, 176);
             this.btndrinks.Margin = new System.Windows.Forms.Padding(4);
             this.btndrinks.Name = "btndrinks";
             this.btndrinks.Size = new System.Drawing.Size(127, 38);
@@ -258,23 +254,23 @@
             // 
             // numericUpDownmilktea
             // 
-            this.numericUpDownmilktea.Location = new System.Drawing.Point(48, 654);
+            this.numericUpDownmilktea.Location = new System.Drawing.Point(351, 607);
             this.numericUpDownmilktea.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownmilktea.Name = "numericUpDownmilktea";
-            this.numericUpDownmilktea.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownmilktea.Size = new System.Drawing.Size(249, 22);
             this.numericUpDownmilktea.TabIndex = 26;
             // 
             // numericUpDownpineapple
             // 
-            this.numericUpDownpineapple.Location = new System.Drawing.Point(623, 654);
+            this.numericUpDownpineapple.Location = new System.Drawing.Point(764, 607);
             this.numericUpDownpineapple.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownpineapple.Name = "numericUpDownpineapple";
-            this.numericUpDownpineapple.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownpineapple.Size = new System.Drawing.Size(249, 22);
             this.numericUpDownpineapple.TabIndex = 27;
             // 
             // numericUpDownapple
             // 
-            this.numericUpDownapple.Location = new System.Drawing.Point(1174, 594);
+            this.numericUpDownapple.Location = new System.Drawing.Point(1174, 607);
             this.numericUpDownapple.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownapple.Name = "numericUpDownapple";
             this.numericUpDownapple.Size = new System.Drawing.Size(249, 22);
@@ -282,9 +278,9 @@
             // 
             // btnlemonade
             // 
-            this.btnlemonade.Location = new System.Drawing.Point(829, 272);
+            this.btnlemonade.Location = new System.Drawing.Point(764, 272);
             this.btnlemonade.Name = "btnlemonade";
-            this.btnlemonade.Size = new System.Drawing.Size(75, 23);
+            this.btnlemonade.Size = new System.Drawing.Size(249, 34);
             this.btnlemonade.TabIndex = 30;
             this.btnlemonade.Text = "lemon";
             this.btnlemonade.UseVisualStyleBackColor = true;
@@ -292,9 +288,9 @@
             // 
             // btnchoco
             // 
-            this.btnchoco.Location = new System.Drawing.Point(1284, 272);
+            this.btnchoco.Location = new System.Drawing.Point(1174, 272);
             this.btnchoco.Name = "btnchoco";
-            this.btnchoco.Size = new System.Drawing.Size(75, 23);
+            this.btnchoco.Size = new System.Drawing.Size(249, 34);
             this.btnchoco.TabIndex = 31;
             this.btnchoco.Text = "choco";
             this.btnchoco.UseVisualStyleBackColor = true;
@@ -302,9 +298,9 @@
             // 
             // btnpineapp
             // 
-            this.btnpineapp.Location = new System.Drawing.Point(742, 624);
+            this.btnpineapp.Location = new System.Drawing.Point(764, 564);
             this.btnpineapp.Name = "btnpineapp";
-            this.btnpineapp.Size = new System.Drawing.Size(75, 23);
+            this.btnpineapp.Size = new System.Drawing.Size(249, 36);
             this.btnpineapp.TabIndex = 33;
             this.btnpineapp.Text = "pineapple";
             this.btnpineapp.UseVisualStyleBackColor = true;
@@ -312,9 +308,9 @@
             // 
             // btnapple
             // 
-            this.btnapple.Location = new System.Drawing.Point(1284, 564);
+            this.btnapple.Location = new System.Drawing.Point(1174, 564);
             this.btnapple.Name = "btnapple";
-            this.btnapple.Size = new System.Drawing.Size(75, 23);
+            this.btnapple.Size = new System.Drawing.Size(249, 36);
             this.btnapple.TabIndex = 34;
             this.btnapple.Text = "apple";
             this.btnapple.UseVisualStyleBackColor = true;
@@ -334,7 +330,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::CryptoBites_FinalProject.Properties.Resources.pineapp;
-            this.pictureBox5.Location = new System.Drawing.Point(742, 418);
+            this.pictureBox5.Location = new System.Drawing.Point(764, 418);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(249, 139);
@@ -345,7 +341,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::CryptoBites_FinalProject.Properties.Resources.mt1;
-            this.pictureBox4.Location = new System.Drawing.Point(80, 477);
+            this.pictureBox4.Location = new System.Drawing.Point(351, 418);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(249, 139);
@@ -367,7 +363,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::CryptoBites_FinalProject.Properties.Resources.mango;
-            this.pictureBox2.Location = new System.Drawing.Point(292, 126);
+            this.pictureBox2.Location = new System.Drawing.Point(351, 126);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(249, 139);
@@ -378,7 +374,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CryptoBites_FinalProject.Properties.Resources.lemon;
-            this.pictureBox1.Location = new System.Drawing.Point(742, 126);
+            this.pictureBox1.Location = new System.Drawing.Point(764, 126);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(249, 139);
@@ -388,9 +384,14 @@
             // 
             // panel3
             // 
-            this.panel3.Location = new System.Drawing.Point(0, 91);
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel3.Controls.Add(this.button5);
+            this.panel3.Controls.Add(this.button6);
+            this.panel3.Controls.Add(this.btndrinks);
+            this.panel3.Controls.Add(this.btnfood);
+            this.panel3.Location = new System.Drawing.Point(8, 96);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(179, 552);
+            this.panel3.Size = new System.Drawing.Size(163, 581);
             this.panel3.TabIndex = 35;
             // 
             // Dinks
@@ -399,6 +400,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(1474, 689);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnmilktea);
             this.Controls.Add(this.btnmango);
             this.Controls.Add(this.btnapple);
@@ -441,6 +443,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

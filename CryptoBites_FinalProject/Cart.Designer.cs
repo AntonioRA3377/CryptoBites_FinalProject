@@ -64,7 +64,7 @@
             // 
             // numericUpDowndiniguan
             // 
-            this.numericUpDowndiniguan.Location = new System.Drawing.Point(289, 722);
+            this.numericUpDowndiniguan.Location = new System.Drawing.Point(286, 646);
             this.numericUpDowndiniguan.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDowndiniguan.Name = "numericUpDowndiniguan";
             this.numericUpDowndiniguan.Size = new System.Drawing.Size(303, 22);
@@ -72,7 +72,7 @@
             // 
             // numericUpDownsinigang
             // 
-            this.numericUpDownsinigang.Location = new System.Drawing.Point(289, 539);
+            this.numericUpDownsinigang.Location = new System.Drawing.Point(286, 463);
             this.numericUpDownsinigang.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownsinigang.Name = "numericUpDownsinigang";
             this.numericUpDownsinigang.Size = new System.Drawing.Size(303, 22);
@@ -80,7 +80,7 @@
             // 
             // numericUpDownadobo
             // 
-            this.numericUpDownadobo.Location = new System.Drawing.Point(289, 357);
+            this.numericUpDownadobo.Location = new System.Drawing.Point(286, 281);
             this.numericUpDownadobo.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownadobo.Name = "numericUpDownadobo";
             this.numericUpDownadobo.Size = new System.Drawing.Size(303, 22);
@@ -96,10 +96,10 @@
             this.panel3.Controls.Add(this.radioBtngcash);
             this.panel3.Controls.Add(this.radioBtncash);
             this.panel3.Controls.Add(this.btncheck);
-            this.panel3.Location = new System.Drawing.Point(967, 196);
+            this.panel3.Location = new System.Drawing.Point(967, 129);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(468, 620);
+            this.panel3.Size = new System.Drawing.Size(468, 636);
             this.panel3.TabIndex = 35;
             // 
             // labelTotal
@@ -195,7 +195,7 @@
             this.panel1.Location = new System.Drawing.Point(-8, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1443, 192);
+            this.panel1.Size = new System.Drawing.Size(1443, 128);
             this.panel1.TabIndex = 36;
             // 
             // btnback
@@ -213,7 +213,7 @@
             // btnaccnt
             // 
             this.btnaccnt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnaccnt.Location = new System.Drawing.Point(213, 160);
+            this.btnaccnt.Location = new System.Drawing.Point(217, 96);
             this.btnaccnt.Margin = new System.Windows.Forms.Padding(4);
             this.btnaccnt.Name = "btnaccnt";
             this.btnaccnt.Size = new System.Drawing.Size(120, 28);
@@ -225,18 +225,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Snap ITC", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(540, 11);
+            this.label1.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(537, 18);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(343, 57);
+            this.label1.Size = new System.Drawing.Size(463, 77);
             this.label1.TabIndex = 7;
             this.label1.Text = "CryptoBites";
             // 
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(4, 160);
+            this.button6.Location = new System.Drawing.Point(11, 96);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(129, 28);
@@ -248,7 +248,7 @@
             // btnfood
             // 
             this.btnfood.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnfood.Location = new System.Drawing.Point(1301, 150);
+            this.btnfood.Location = new System.Drawing.Point(1312, 89);
             this.btnfood.Margin = new System.Windows.Forms.Padding(4);
             this.btnfood.Name = "btnfood";
             this.btnfood.Size = new System.Drawing.Size(127, 38);
@@ -260,7 +260,7 @@
             // btndrinks
             // 
             this.btndrinks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndrinks.Location = new System.Drawing.Point(1113, 150);
+            this.btndrinks.Location = new System.Drawing.Point(1124, 89);
             this.btndrinks.Margin = new System.Windows.Forms.Padding(4);
             this.btndrinks.Name = "btndrinks";
             this.btndrinks.Size = new System.Drawing.Size(123, 38);
@@ -271,10 +271,10 @@
             // 
             // btnAddAdobo
             // 
-            this.btnAddAdobo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddAdobo.Location = new System.Drawing.Point(366, 318);
+            this.btnAddAdobo.Font = new System.Drawing.Font("Stencil", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAdobo.Location = new System.Drawing.Point(286, 151);
             this.btnAddAdobo.Name = "btnAddAdobo";
-            this.btnAddAdobo.Size = new System.Drawing.Size(75, 32);
+            this.btnAddAdobo.Size = new System.Drawing.Size(303, 123);
             this.btnAddAdobo.TabIndex = 37;
             this.btnAddAdobo.Text = "Adobo";
             this.btnAddAdobo.UseVisualStyleBackColor = true;
@@ -282,10 +282,10 @@
             // 
             // btnAddSinigang
             // 
-            this.btnAddSinigang.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddSinigang.Location = new System.Drawing.Point(366, 486);
+            this.btnAddSinigang.Font = new System.Drawing.Font("Stencil", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddSinigang.Location = new System.Drawing.Point(286, 325);
             this.btnAddSinigang.Name = "btnAddSinigang";
-            this.btnAddSinigang.Size = new System.Drawing.Size(96, 36);
+            this.btnAddSinigang.Size = new System.Drawing.Size(303, 131);
             this.btnAddSinigang.TabIndex = 38;
             this.btnAddSinigang.Text = "Sinigang";
             this.btnAddSinigang.UseVisualStyleBackColor = true;
@@ -293,10 +293,10 @@
             // 
             // btnAddDinuguan
             // 
-            this.btnAddDinuguan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddDinuguan.Location = new System.Drawing.Point(369, 670);
+            this.btnAddDinuguan.Font = new System.Drawing.Font("Stencil", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddDinuguan.Location = new System.Drawing.Point(286, 532);
             this.btnAddDinuguan.Name = "btnAddDinuguan";
-            this.btnAddDinuguan.Size = new System.Drawing.Size(93, 45);
+            this.btnAddDinuguan.Size = new System.Drawing.Size(303, 107);
             this.btnAddDinuguan.TabIndex = 39;
             this.btnAddDinuguan.Text = "Dinuguan";
             this.btnAddDinuguan.UseVisualStyleBackColor = true;
@@ -305,7 +305,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::CryptoBites_FinalProject.Properties.Resources.ddgn;
-            this.pictureBox5.Location = new System.Drawing.Point(16, 608);
+            this.pictureBox5.Location = new System.Drawing.Point(13, 532);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(249, 139);
@@ -316,7 +316,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::CryptoBites_FinalProject.Properties.Resources.Screenshot_2025_12_09_153134;
-            this.pictureBox4.Location = new System.Drawing.Point(16, 401);
+            this.pictureBox4.Location = new System.Drawing.Point(13, 325);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(249, 163);
@@ -327,7 +327,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::CryptoBites_FinalProject.Properties.Resources.chicken_adobo_filipino_recipe;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 224);
+            this.pictureBox2.Location = new System.Drawing.Point(13, 148);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(249, 155);

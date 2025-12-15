@@ -57,6 +57,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownBurger)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownFries)).BeginInit();
@@ -73,21 +74,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Controls.Add(this.btnviewcart);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.btndrinks);
-            this.panel1.Controls.Add(this.btnfood);
             this.panel1.Location = new System.Drawing.Point(4, 4);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1481, 252);
+            this.panel1.Size = new System.Drawing.Size(1481, 95);
             this.panel1.TabIndex = 0;
             // 
             // btnviewcart
@@ -105,10 +103,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(205, 220);
+            this.button1.Location = new System.Drawing.Point(19, 55);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 28);
+            this.button1.Size = new System.Drawing.Size(129, 28);
             this.button1.TabIndex = 7;
             this.button1.Text = "ACCOUNT";
             this.button1.UseVisualStyleBackColor = true;
@@ -117,7 +115,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(4, 220);
+            this.button6.Location = new System.Drawing.Point(19, 9);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(129, 28);
@@ -130,7 +128,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(484, 0);
+            this.label4.Location = new System.Drawing.Point(530, 0);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(488, 77);
@@ -140,7 +138,7 @@
             // btndrinks
             // 
             this.btndrinks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndrinks.Location = new System.Drawing.Point(1161, 210);
+            this.btndrinks.Location = new System.Drawing.Point(19, 179);
             this.btndrinks.Margin = new System.Windows.Forms.Padding(4);
             this.btndrinks.Name = "btndrinks";
             this.btndrinks.Size = new System.Drawing.Size(127, 38);
@@ -152,7 +150,7 @@
             // btnfood
             // 
             this.btnfood.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnfood.Location = new System.Drawing.Point(1305, 210);
+            this.btnfood.Location = new System.Drawing.Point(23, 257);
             this.btnfood.Margin = new System.Windows.Forms.Padding(4);
             this.btnfood.Name = "btnfood";
             this.btnfood.Size = new System.Drawing.Size(123, 38);
@@ -175,28 +173,28 @@
             // 
             // numericUpDownBurger
             // 
-            this.numericUpDownBurger.Location = new System.Drawing.Point(48, 434);
+            this.numericUpDownBurger.Location = new System.Drawing.Point(333, 318);
             this.numericUpDownBurger.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownBurger.Name = "numericUpDownBurger";
-            this.numericUpDownBurger.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownBurger.Size = new System.Drawing.Size(249, 22);
             this.numericUpDownBurger.TabIndex = 1;
             this.numericUpDownBurger.ValueChanged += new System.EventHandler(this.numericUpDownBurger_ValueChanged);
             // 
             // numericUpDownFries
             // 
-            this.numericUpDownFries.Location = new System.Drawing.Point(623, 434);
+            this.numericUpDownFries.Location = new System.Drawing.Point(752, 318);
             this.numericUpDownFries.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownFries.Name = "numericUpDownFries";
-            this.numericUpDownFries.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownFries.Size = new System.Drawing.Size(249, 22);
             this.numericUpDownFries.TabIndex = 2;
             this.numericUpDownFries.ValueChanged += new System.EventHandler(this.numericUpDownFries_ValueChanged);
             // 
             // numericUpDownChicken
             // 
-            this.numericUpDownChicken.Location = new System.Drawing.Point(1151, 434);
+            this.numericUpDownChicken.Location = new System.Drawing.Point(1183, 318);
             this.numericUpDownChicken.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownChicken.Name = "numericUpDownChicken";
-            this.numericUpDownChicken.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownChicken.Size = new System.Drawing.Size(249, 22);
             this.numericUpDownChicken.TabIndex = 3;
             this.numericUpDownChicken.ValueChanged += new System.EventHandler(this.numericUpDownChicken_ValueChanged);
             // 
@@ -226,36 +224,36 @@
             // 
             // numericUpDownpizza
             // 
-            this.numericUpDownpizza.Location = new System.Drawing.Point(48, 638);
+            this.numericUpDownpizza.Location = new System.Drawing.Point(333, 605);
             this.numericUpDownpizza.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownpizza.Name = "numericUpDownpizza";
-            this.numericUpDownpizza.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownpizza.Size = new System.Drawing.Size(249, 22);
             this.numericUpDownpizza.TabIndex = 27;
             this.numericUpDownpizza.ValueChanged += new System.EventHandler(this.numericUpDownpizza_ValueChanged);
             // 
             // numericUpDownhotdog
             // 
-            this.numericUpDownhotdog.Location = new System.Drawing.Point(632, 638);
+            this.numericUpDownhotdog.Location = new System.Drawing.Point(752, 605);
             this.numericUpDownhotdog.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownhotdog.Name = "numericUpDownhotdog";
-            this.numericUpDownhotdog.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownhotdog.Size = new System.Drawing.Size(249, 22);
             this.numericUpDownhotdog.TabIndex = 28;
             this.numericUpDownhotdog.ValueChanged += new System.EventHandler(this.numericUpDownhotdog_ValueChanged);
             // 
             // numericUpDownpancit
             // 
-            this.numericUpDownpancit.Location = new System.Drawing.Point(1149, 638);
+            this.numericUpDownpancit.Location = new System.Drawing.Point(1183, 605);
             this.numericUpDownpancit.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownpancit.Name = "numericUpDownpancit";
-            this.numericUpDownpancit.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownpancit.Size = new System.Drawing.Size(249, 22);
             this.numericUpDownpancit.TabIndex = 29;
             this.numericUpDownpancit.ValueChanged += new System.EventHandler(this.numericUpDownpancit_ValueChanged);
             // 
             // btnBurger
             // 
-            this.btnBurger.Location = new System.Drawing.Point(159, 409);
+            this.btnBurger.Location = new System.Drawing.Point(333, 279);
             this.btnBurger.Name = "btnBurger";
-            this.btnBurger.Size = new System.Drawing.Size(75, 23);
+            this.btnBurger.Size = new System.Drawing.Size(249, 36);
             this.btnBurger.TabIndex = 30;
             this.btnBurger.Text = "Burger";
             this.btnBurger.UseVisualStyleBackColor = true;
@@ -263,9 +261,9 @@
             // 
             // btnFries
             // 
-            this.btnFries.Location = new System.Drawing.Point(736, 409);
+            this.btnFries.Location = new System.Drawing.Point(752, 279);
             this.btnFries.Name = "btnFries";
-            this.btnFries.Size = new System.Drawing.Size(75, 23);
+            this.btnFries.Size = new System.Drawing.Size(249, 36);
             this.btnFries.TabIndex = 31;
             this.btnFries.Text = "Fries";
             this.btnFries.UseVisualStyleBackColor = true;
@@ -273,9 +271,9 @@
             // 
             // btnChicken
             // 
-            this.btnChicken.Location = new System.Drawing.Point(1283, 409);
+            this.btnChicken.Location = new System.Drawing.Point(1183, 279);
             this.btnChicken.Name = "btnChicken";
-            this.btnChicken.Size = new System.Drawing.Size(75, 23);
+            this.btnChicken.Size = new System.Drawing.Size(249, 36);
             this.btnChicken.TabIndex = 32;
             this.btnChicken.Text = "Chicken";
             this.btnChicken.UseVisualStyleBackColor = true;
@@ -283,9 +281,9 @@
             // 
             // btnpizza
             // 
-            this.btnpizza.Location = new System.Drawing.Point(159, 610);
+            this.btnpizza.Location = new System.Drawing.Point(333, 564);
             this.btnpizza.Name = "btnpizza";
-            this.btnpizza.Size = new System.Drawing.Size(75, 23);
+            this.btnpizza.Size = new System.Drawing.Size(249, 34);
             this.btnpizza.TabIndex = 33;
             this.btnpizza.Text = "pizza";
             this.btnpizza.UseVisualStyleBackColor = true;
@@ -293,9 +291,9 @@
             // 
             // btnhotdog
             // 
-            this.btnhotdog.Location = new System.Drawing.Point(747, 610);
+            this.btnhotdog.Location = new System.Drawing.Point(752, 564);
             this.btnhotdog.Name = "btnhotdog";
-            this.btnhotdog.Size = new System.Drawing.Size(75, 23);
+            this.btnhotdog.Size = new System.Drawing.Size(249, 34);
             this.btnhotdog.TabIndex = 34;
             this.btnhotdog.Text = "hotdog";
             this.btnhotdog.UseVisualStyleBackColor = true;
@@ -303,9 +301,9 @@
             // 
             // btnpancit
             // 
-            this.btnpancit.Location = new System.Drawing.Point(1283, 610);
+            this.btnpancit.Location = new System.Drawing.Point(1183, 564);
             this.btnpancit.Name = "btnpancit";
-            this.btnpancit.Size = new System.Drawing.Size(75, 23);
+            this.btnpancit.Size = new System.Drawing.Size(249, 34);
             this.btnpancit.TabIndex = 35;
             this.btnpancit.Text = "pancit";
             this.btnpancit.UseVisualStyleBackColor = true;
@@ -314,7 +312,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::CryptoBites_FinalProject.Properties.Resources.pancit;
-            this.pictureBox6.Location = new System.Drawing.Point(1183, 464);
+            this.pictureBox6.Location = new System.Drawing.Point(1183, 418);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(249, 139);
@@ -325,7 +323,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::CryptoBites_FinalProject.Properties.Resources.hotdogs;
-            this.pictureBox5.Location = new System.Drawing.Point(655, 464);
+            this.pictureBox5.Location = new System.Drawing.Point(752, 418);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(249, 139);
@@ -336,7 +334,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::CryptoBites_FinalProject.Properties.Resources.pizza;
-            this.pictureBox4.Location = new System.Drawing.Point(80, 464);
+            this.pictureBox4.Location = new System.Drawing.Point(333, 418);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(249, 139);
@@ -347,7 +345,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::CryptoBites_FinalProject.Properties.Resources.chicken;
-            this.pictureBox3.Location = new System.Drawing.Point(1183, 263);
+            this.pictureBox3.Location = new System.Drawing.Point(1183, 133);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(249, 139);
@@ -358,7 +356,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::CryptoBites_FinalProject.Properties.Resources.Screenshot_2025_12_14_092821;
-            this.pictureBox2.Location = new System.Drawing.Point(80, 263);
+            this.pictureBox2.Location = new System.Drawing.Point(333, 133);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(249, 139);
@@ -369,7 +367,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CryptoBites_FinalProject.Properties.Resources.fries;
-            this.pictureBox1.Location = new System.Drawing.Point(655, 263);
+            this.pictureBox1.Location = new System.Drawing.Point(752, 133);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(249, 139);
@@ -377,11 +375,24 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btnfood);
+            this.panel2.Controls.Add(this.btndrinks);
+            this.panel2.Location = new System.Drawing.Point(4, 98);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(170, 575);
+            this.panel2.TabIndex = 36;
+            // 
             // Foods
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1465, 673);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnpancit);
             this.Controls.Add(this.btnhotdog);
             this.Controls.Add(this.btnpizza);
@@ -424,6 +435,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -459,5 +471,6 @@
         private System.Windows.Forms.Button btnpizza;
         private System.Windows.Forms.Button btnhotdog;
         private System.Windows.Forms.Button btnpancit;
+        private System.Windows.Forms.Panel panel2;
     }
 }
