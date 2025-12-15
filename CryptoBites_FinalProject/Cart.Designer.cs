@@ -52,6 +52,9 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDowndiniguan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownsinigang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownadobo)).BeginInit();
@@ -64,26 +67,26 @@
             // 
             // numericUpDowndiniguan
             // 
-            this.numericUpDowndiniguan.Location = new System.Drawing.Point(286, 646);
+            this.numericUpDowndiniguan.Location = new System.Drawing.Point(364, 646);
             this.numericUpDowndiniguan.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDowndiniguan.Name = "numericUpDowndiniguan";
-            this.numericUpDowndiniguan.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDowndiniguan.Size = new System.Drawing.Size(225, 22);
             this.numericUpDowndiniguan.TabIndex = 29;
             // 
             // numericUpDownsinigang
             // 
-            this.numericUpDownsinigang.Location = new System.Drawing.Point(286, 463);
+            this.numericUpDownsinigang.Location = new System.Drawing.Point(364, 463);
             this.numericUpDownsinigang.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownsinigang.Name = "numericUpDownsinigang";
-            this.numericUpDownsinigang.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownsinigang.Size = new System.Drawing.Size(225, 22);
             this.numericUpDownsinigang.TabIndex = 28;
             // 
             // numericUpDownadobo
             // 
-            this.numericUpDownadobo.Location = new System.Drawing.Point(286, 281);
+            this.numericUpDownadobo.Location = new System.Drawing.Point(364, 281);
             this.numericUpDownadobo.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownadobo.Name = "numericUpDownadobo";
-            this.numericUpDownadobo.Size = new System.Drawing.Size(303, 22);
+            this.numericUpDownadobo.Size = new System.Drawing.Size(225, 22);
             this.numericUpDownadobo.TabIndex = 27;
             // 
             // panel3
@@ -335,11 +338,41 @@
             this.pictureBox2.TabIndex = 31;
             this.pictureBox2.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(302, 283);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 16);
+            this.label3.TabIndex = 40;
+            this.label3.Text = "Php 120";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(302, 465);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 16);
+            this.label4.TabIndex = 41;
+            this.label4.Text = "Php 140";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(302, 648);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 16);
+            this.label5.TabIndex = 42;
+            this.label5.Text = "Php 130";
+            // 
             // Cart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1436, 748);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnAddDinuguan);
             this.Controls.Add(this.btnAddSinigang);
             this.Controls.Add(this.btnAddAdobo);
@@ -366,6 +399,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -394,5 +428,8 @@
         private System.Windows.Forms.Button btnAddAdobo;
         private System.Windows.Forms.Button btnAddSinigang;
         private System.Windows.Forms.Button btnAddDinuguan;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
