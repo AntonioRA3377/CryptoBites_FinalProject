@@ -178,7 +178,7 @@
             // btncheck
             // 
             this.btncheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncheck.Location = new System.Drawing.Point(4, 544);
+            this.btncheck.Location = new System.Drawing.Point(4, 542);
             this.btncheck.Margin = new System.Windows.Forms.Padding(4);
             this.btncheck.Name = "btncheck";
             this.btncheck.Size = new System.Drawing.Size(328, 73);
