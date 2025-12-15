@@ -374,7 +374,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CryptoBites_FinalProject.Properties.Resources.lemon;
-            this.pictureBox1.Location = new System.Drawing.Point(764, 126);
+            this.pictureBox1.Location = new System.Drawing.Point(750, 126);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(249, 139);
